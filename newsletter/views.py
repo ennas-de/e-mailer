@@ -4,7 +4,7 @@ from .forms import SubForm, EmailForm
 from .models import EmailSub
 from functions.auto_mail import auto_mail
 
-# Create your views here.
+# Create your views here
 def register(request):
     if request.method == 'POST':
         form = SubForm(request.POST)
