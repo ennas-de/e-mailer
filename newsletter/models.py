@@ -1,7 +1,9 @@
 from django.db import models
 from ckeditor.fields import RichTextField
 
-# Create your models here.
+# Create your models here
+
+
 class EmailSub(models.Model):
     first_name = models.CharField(max_length=50, verbose_name='First Name')
     last_name = models.CharField(max_length=50, verbose_name='Last Name')
