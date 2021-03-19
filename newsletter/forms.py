@@ -1,6 +1,9 @@
 from .models import EmailSub, Email
 from django import forms
 
+# create sub form
+
+
 class SubForm(forms.ModelForm):
     class Meta:
         model = EmailSub
