@@ -1,7 +1,7 @@
 from .models import EmailSub, Email
 from django import forms
 
-# create forms
+# create forms.
 
 
 class SubForm(forms.ModelForm):
